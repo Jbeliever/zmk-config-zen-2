@@ -85,10 +85,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &out OUT_TOG     &trans           &kp UP           &trans           &kp N0    &kp BSPC
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &trans          &trans           &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
-&rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &trans          &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                                   &trans           &trans           &trans          &kp INS          &kp DEL          &trans
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &out OUT_TOG  &trans    &kp UP    &trans     &trans  &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &trans             &trans        &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_EFR    &trans        &trans    &trans    &trans     &trans  &trans
+                                                   &trans           &trans           &trans             &trans        &trans    &trans
             >;
         };
     };
